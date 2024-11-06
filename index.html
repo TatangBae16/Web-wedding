@@ -483,8 +483,7 @@
           </div>
           <form class="row row-cols-md-auto g-3 align-items-center justify-content-center"
           method="POST" 
-          action="https://script.google.com/macros/s/AKfycbxv_L0z6UQnNlDHRh98ihhewP41eqnJjsWspdYBxVkK3EEbHZZtEN_pGmHGKZs6Rtbcdw/exec" id="my-form"
-        >
+          action="kehadiran.php" id="my-form"> <!-- mengubah action dari bawaan jadi kehadiran.php -->
         <div class="col-12">
           <div class="mb-3">
             <label for="nama" class="form-label">Nama</label>
@@ -499,8 +498,8 @@
         </div>
         <div class="col-12">
           <div class="mb-3">
-            <label for="status" class="form-label">Konfirmasi</label>
-            <select name="status" id="status" class="form-select">
+            <label for="kehadiran" class="form-label">Konfirmasi</label>
+            <select name="kehadiran" id="kehadiran" class="form-select"> <!-- ubah name = status -> name = kehadiran-->
               <option selected>Pilih salah satu</option>
               <option value="Hadir">Hadir</option>
               <option value="Tidak Hadir">Tidak Hadir</option>
