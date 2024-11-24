@@ -24,7 +24,7 @@ body {
   height: 100vh;
   margin: 0;
   z-index: -1;
-  filter: grayscale();
+  filter: blur();
 }
 
 .hero {
