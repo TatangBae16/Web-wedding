@@ -1,6 +1,6 @@
 <?php
 $host = "localhost";
-$database = "web_wedding";
+$database = "wedding";
 $username = "root";
 $password = "";
 
